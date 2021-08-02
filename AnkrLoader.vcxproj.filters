@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{4f210d0e-4ecc-4d4c-b066-2da9d2e9979a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection">
+      <UniqueIdentifier>{2de97741-4592-4a2a-874f-fcf7c016e75a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth">
+      <UniqueIdentifier>{0884f31f-8211-44dd-99d2-c64506b31646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bytes">
+      <UniqueIdentifier>{4262f13e-3e7d-4ef6-8da2-286a3e488f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mapper">
+      <UniqueIdentifier>{c685fb34-0067-40a8-a9a2-d7a4e2ad7722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{56a75452-d212-4c82-8e89-1e4c19142d98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy_importer.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="other.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypt.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="antidbg.hpp">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="badprocess.hpp">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth.hpp">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="protection.hpp">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.h">
+      <Filter>bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="injector.h">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="drv_utils.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="utilit.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="shellcode.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>other</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
